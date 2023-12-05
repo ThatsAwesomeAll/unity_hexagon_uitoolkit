@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/SkillButton.uss?fileID=7433441132597879392&amp;guid=4bdbccb2886a2284bae9e4d44ff70018&amp;type=3#SkillButton" />
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:VisualElement name="Background" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Resources/UI/HexagonSkillButton/HexagonFilledBoarder.png?fileID=2800000&amp;guid=3b559ac3bf03dba4b9791a0c48e2e8aa&amp;type=3#HexagonFilledBoarder&apos;); display: flex; -unity-background-image-tint-color: rgb(206, 206, 206);" />
+        <ui:VisualElement style="position: absolute; width: 90%; height: 90%; background-image: url(&apos;project://database/Assets/Resources/UI/HexagonSkillButton/HexagonSvg.svg?fileID=7388822144124034973&amp;guid=4a0b8743334996f478b6bfa4b8edfd7c&amp;type=3#HexagonSvg&apos;); -unity-background-scale-mode: stretch-to-fill; overflow: hidden; visibility: visible; left: 4%; top: 4%;">
+            <ui:VisualElement style="position: absolute; width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-1304905567622442630&amp;guid=40fb480b53fd82245b87185a2bbd2c57&amp;type=3#arrow-down@2x&apos;); -unity-background-scale-mode: stretch-to-fill; overflow: hidden; background-color: rgb(207, 17, 17); visibility: visible;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="InfoContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; width: 100%; height: 100%;" />
+        <ui:VisualElement name="Boarder" focusable="true" style="flex-grow: 1; position: absolute; background-image: url(&apos;project://database/Assets/Resources/UI/HexagonSkillButton/SkillbuttonBoarder.png?fileID=2800000&amp;guid=59823004d7510344f8c1fddb7be8cc76&amp;type=3#SkillbuttonBoarder&apos;); width: 100%; height: 100%; display: flex; overflow: visible;" />
+    </ui:VisualElement>
+</ui:UXML>

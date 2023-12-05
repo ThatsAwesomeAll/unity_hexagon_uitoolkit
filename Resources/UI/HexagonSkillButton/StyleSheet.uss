@@ -1,0 +1,11 @@
+#Boarder:hover {
+    -unity-background-image-tint-color: rgb(0, 188, 15);
+}
+
+#Boarder:focus {
+    -unity-background-image-tint-color: rgb(0, 151, 188);
+}
+
+#Boarder:checked {
+    -unity-background-image-tint-color: rgb(188, 0, 145);
+}
